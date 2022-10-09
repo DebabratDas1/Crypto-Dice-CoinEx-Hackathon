@@ -1,0 +1,40 @@
+## Inspiration 
+We wanted to build a simple game on Web3 to attract a mass audience. There are many people who are not willing to play crypto games or think crypto games are complex. So we're attempting to reach out to people who aren't even crypto investors or pro gamers. So we made a simple but fun gameplay where players can play and earn CET balance on a win. Our motivation is Roulette (a gambling game in which players bet on which compartment of a revolving wheel a small ball will come to rest in), which is a famous casino game. But that is a bit complex for a non-gambler audience. As a result, we created a very simplified version of the casino game. 
+## What it does 
+Players in Crypto Dice can play for money. A player can bet chips (which is a game currency, i.e., an erc20 token). There are 6 numbers from 1 to 6 on a board. A player can bet on any single number or on multiple numbers. After confirming the bet, the player needs to roll a die. If the outcome is the number on which the player bet, then the player wins and gets chips as a reward. The first time a player needs to buy a chip to bet. A player needs to have  CET balance to buy chips. Players' chips will increase after winning a bet. A player can sell chips to get  CET balance. We kept this game as simple as possible to target a mass audience. To keep it simple, we implemented an in-game marketplace. So, buying and selling chips (CHP tokens) is very simple.
+
+## How we built it 
+We built Crypto Dice in the Unity Game Engine using C#. We used the Solidity language and the Remix IDE to create the chip token. We deployed chips (CHP smart contract) on the CoinEx testnet. We used the Chainsafe SDK to easily connect our game to the blockchain and implement blockchain transactions.
+
+![Board](C:\Users\hp\Pictures\Screenshots\BetBoard.png)
+There is a board in the game. A player can bet on single numbers or bet on odd, even, red, or black numbers. 
+The Confirm Bet button will ask the wallet to deposit the bet amount in chips. 
+After confirming, a game screen will appear, where the player needs to roll dice, and according to the die outcome, they will be rewarded. 
+
+
+
+
+## Challenges we ran into 
+The first challenge was to make something very simple to play to earn  game so that we could attract a mass audience and build trust with our users. so that users will show an interest in our future projects also. From many game ideas, we came up with a very simple gameplay where gaming skills are not necessary.
+
+Our second challenge was to make it a real earning game, so that players will get rewards automatically after winning a game, no need to wait for a reward or CET balance. For that, we created our own ERC20 token, named chips. A player can buy and sell chips at anytime. On selling the erc20 token, the player will get a CET balance in no time. A player can increase their chip number by playing and by winning games. And our target was to make buying and selling simple. So we made an in-game marketplace where players can buy and sell chips with one click. In the marketplace, players can see their CET balance, their chip balance, and their chip price, so that they do not need to go outside of the game.
+
+Our third and most important challenge was to make our idea into reality. For that, connecting our game with blockchain was a crying need. After a little R&D, we decided to use the Chainsafe SDK that provides the base layer for blockchain-enabled games. The Chainsafe SDK makes it easy to implement WEB3 features easily.
+
+## Accomplishments that we're proud of 
+We are happy that we have successfully developed the first stage of our dream. We have successfully deployed the token on the CoinEx testnet. We also made the game simple and added a simple in-game marketplace.
+
+## What we learned 
+I have learnt many things from a technology perspective. I learned how to write contracts, a few basic blockchain concepts, and how to use blockchain in Unity games.
+
+## What's next for Crypto Dice
+
+# Short-Term Goal :
+
+Our short-term objective is to launch "Crypto Die". The game is currently on testnet. We want to deploy our contract on the mainnet. 
+
+# Mid-Term Goal : 
+Our mid-term goal is to create more web3, P2E games. We want to add many popular casino games like Roulette, Black-Jack, etc. And some games from popular game genres such as MMORPGs, Collective Cards, and so on.
+
+# Long-Term Goal : 
+Our long-term goal is to create a CASINOVERSE in which anyone can buy their own plot, build their own casino, and keep and create various casino games. Gamblers can gather together, can go into any particular casino and can gamble.
